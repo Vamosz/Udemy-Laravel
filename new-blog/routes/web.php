@@ -21,3 +21,5 @@ Route::get('/', function () {
 //Route::get('/post/{id}', 'PostsController@index');
 
 Route::resource('posts','PostsController');
+
+Route::get('/contact', 'PostsController@contact');
